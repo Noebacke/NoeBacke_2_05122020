@@ -1,5 +1,8 @@
-#menu {
+#menu{
     display: flex;
-  flex-direction:row-reverse
-  }
-  
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 30px;
+    padding left:px;
+} 
+    
