@@ -7,7 +7,28 @@
 } 
     
 #Bloc1{
+display: flex;
 
 
-    
+}
+
+#Bloc2{
+display: flex;   
+
+}
+
+#Bloc3{
+
+
+}
+#Bloc4{
+display: flex;
+align-items: center;
+justify-content: center
+}
+
+#Bloc6{
+display: flex;
+align-items: flex-end;
+justify-content: space-around;
 }
