@@ -12,23 +12,53 @@ display: flex;
 
 }
 
-#Bloc2{
-display: flex;   
 
+#filtres{
+display: flex;
+
+
+margin: 10%;
 }
 
-#Bloc3{
 
+
+#ensemble-images{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: ;
 
 }
 #Bloc4{
 display: flex;
-align-items: center;
-justify-content: center
+align-items: flex-end;
+justify-content: center;
+flex-direction: column
 }
 
 #Bloc6{
 display: flex;
 align-items: flex-end;
-justify-content: space-around;
+justify-content: space-between;
+max-width: 1000px;
+width: 100%;
+}
+#Bloc5{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.boite-hebergement{
+    display: flex;
+}
+.section-hebergement{
+    margin-right: 40px;
+    background-color: rgba(207, 64, 64, 0.61);
+}
+.section-populaire{
+    background-color: indigo;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
