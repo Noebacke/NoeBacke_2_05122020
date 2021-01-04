@@ -8,27 +8,19 @@
     
 #Bloc1{
 display: flex;
-
-
 }
-
 
 #filtres{
 display: flex;
-
-
 margin: 10%;
 }
-
-
 
 #ensemble-images{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-margin: ;
-
 }
+
 #Bloc4{
 display: flex;
 align-items: flex-end;
@@ -43,22 +35,46 @@ justify-content: space-between;
 max-width: 1000px;
 width: 100%;
 }
+
 #Bloc5{
     display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 }
+
 .boite-hebergement{
     display: flex;
 }
+
 .section-hebergement{
     margin-right: 40px;
-    background-color: rgba(207, 64, 64, 0.61);
+    background-color: gainsboro;
 }
+
 .section-populaire{
     background-color: indigo;
 }
+
 footer{
     display: flex;
     justify-content: center;
+}
+
+.page-globale{
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+}
+
+.rang1-3-photos, .rang2-3-photos{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-1{
+    background-color: white;
+    border-radius: 5%;
+}
+
+.image{
+    width: 100%;
 }
