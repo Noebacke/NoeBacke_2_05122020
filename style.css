@@ -8,11 +8,12 @@
     
 #Bloc1{
 display: flex;
+
 }
 
-#filtres{
+.filtres{
 display: flex;
-margin: 10%;
+
 }
 
 #ensemble-images{
@@ -48,7 +49,7 @@ flex-wrap: wrap;
 
 .section-hebergement{
     margin-right: 50px;
-    background-color: rgb(114, 31, 31);
+    background-color: #F2F2F2;
     border-radius: 20px;
     max-height: 650px;
 }
@@ -79,8 +80,53 @@ footer{
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
     padding : 5px 5px 5px 0;
+    margin: 25px;
 }
-
+.image-2{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height:170px ;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    padding : 5px 5px 5px 0;
+    margin: 25px;
+}
+.image-3{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height:170px ;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    padding : 5px 5px 5px 0;
+    margin: 25px;
+}
+.image-4{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height:170px ;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    padding : 5px 5px 5px 0;
+    margin: 25px;
+}
+.image-5{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height:170px ;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    padding : 5px 5px 5px 0;
+    margin: 25px;
+}
+.image-6{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height:170px ;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    padding : 5px 5px 5px 0;
+    margin: 25px;
+}
 .image{
     height: 50%;
     width: 100%;
@@ -126,11 +172,12 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    flex-direction: column;
 }
 
 .logo{
-    height: 30px;
-    width: 30px;
+    
+    
 }
 .icone-fond{
     width: 25px;
@@ -142,6 +189,3 @@ footer{
     align-items: center;
 }
 
-#bloc2{
-
-}
