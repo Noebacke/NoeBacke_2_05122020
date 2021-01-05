@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reservia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 <div class="page-globale">
@@ -14,10 +16,13 @@
         <header>
             <div id="Bloc1" class="Bloc1">
                 <!--Partie 1 menu principal-->
-                <script src="https://kit.fontawesome.com/5048d6932d.js" crossorigin="anonymous"></script>
 
                 <!-- Partie 1/2 -->
-                <div class="logo">Logo</div>
+                <div class="logo">
+                    <Figure>
+                        <img src="photos/Reservia.svg" alt="Logo Reservia" />
+                    </Figure>
+                </div>
 
                 <!-- Partie 2/2 -->
                 <div id="menu" class="menu">
@@ -31,7 +36,7 @@
 
         <nav>
             <!--Partie 2  recherche-->
-            <div id="Bloc2" class="Bloc2">
+            <div class="bloc2" id="bloc2">
                 <!-- Partie 1/4 -->
                 <div class="titre-part-2">
                     <div class="titre">
@@ -44,8 +49,8 @@
                 <div class="barre-de-recherche">
                     <!-- #F2F2F2 code exa gris pour fond -->
                     <div class="bulle"><i class="fas fa-map-marker-alt"></i> </div>
-                    <div class="insertion"></div>
-                    <div class="bouton-recherche"></div>
+                    <div class="insertion"><input type="text"></div>
+                    <div class="bouton-recherche"><button id="submit-search">Rechercher</button</div>
 
                 </div>
                 <!-- Partie 3/4 Filtres -->
@@ -54,25 +59,34 @@
                     <h4><strong>Filtres</strong></h4>
 
                     <div class="economique">
-                        <div class="icone"><i class="fas fa-money-bill-wave"></i></div>
+                        <div class="icone-fond"> 
+                            <div class="icone"><i class="fas fa-money-bill-wave"></i></div>
+                        </div>
+                            
                         <div class="nom-filtre">
                             <h4><strong>Économique</strong></h4>
                         </div>
                     </div>
                     <div class="familial">
-                        <div class="icone"><i class="fas fa-child"></i></div>
+                        <div class="icone-fond">
+                            <div class="icone"><i class="fas fa-child"></i></div>
+                        </div>
                         <div class="nom-filtre">
                             <h4><strong>Familial</strong></h4>
                         </div>
                     </div>
                     <div class="romantique">
-                        <div class="icone"><i class="fas fa-heart"></i></div>
+                        <div class="icone-fond">
+                            <div class="icone"><i class="fas fa-heart"></i></div>
+                        </div>
                         <div class="nom-filtre">
                             <h4><strong>Romantique</strong></h4>
                         </div>
                     </div>
                     <div class="animaux-autorises">
-                        <div class="icone"><i class="fas fa-dog"></i></div>
+                        <div class="icone-fond">
+                            <div class="icone"><i class="fas fa-dog"></i></div>
+                        </div>
                         <div class="nom-filtre">
                             <h4><strong>Animaux autorisés</strong></h4>
                         </div>
@@ -106,9 +120,7 @@
 
                         <div class="image-1">
                             <div class="image">
-                                <Figure>
-                                    <img src="https://via.placeholder.com/150" alt="Notre-Dame-de-la-Garde" />
-                                </Figure>
+                                    <img src="photos/lit-double.jpg" alt="Notre-Dame-de-la-Garde" />
                             </div>
                             <div class="titre-principale">
                                 <h5><strong>Auberge la Cannebière</strong></h5>
@@ -374,6 +386,7 @@
             </div>
         </footer>
         <!-- Fin de la partie 6 -->
+        <script src="https://kit.fontawesome.com/5048d6932d.js" crossorigin="anonymous"></script>
     </body>
 </div>
 

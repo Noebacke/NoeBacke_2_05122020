@@ -47,8 +47,10 @@ flex-wrap: wrap;
 }
 
 .section-hebergement{
-    margin-right: 40px;
-    background-color: gainsboro;
+    margin-right: 50px;
+    background-color: rgb(114, 31, 31);
+    border-radius: 20px;
+    max-height: 650px;
 }
 
 .section-populaire{
@@ -62,7 +64,7 @@ footer{
 
 .page-globale{
     justify-content: center;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 200px 0px 200px;
 }
 
 .rang1-3-photos, .rang2-3-photos{
@@ -71,10 +73,75 @@ footer{
 }
 
 .image-1{
-    background-color: white;
-    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height:170px ;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    padding : 5px 5px 5px 0;
 }
 
 .image{
+    height: 50%;
     width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.economique{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.fa-money-bill-wave{
+    color: blue;
+}
+.familial{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.fa-child{
+    color: blue;
+}
+.romantique{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.fa-heart{
+    color: blue;
+}
+.animaux-autorises{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.fa-dog{
+    color: blue;
+}
+.barre-de-recherche{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}
+.icone-fond{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloc2{
+
 }
