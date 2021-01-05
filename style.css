@@ -4,8 +4,17 @@
     align-items: flex-end;
     margin-top: 10px;
     padding-left:80%;
-} 
     
+} 
+.hebergements{
+    margin: 15px;
+}
+.activites{
+    margin: 15px;
+}    
+.inscription{
+    margin: 15px;
+}
 #Bloc1{
 display: flex;
 
@@ -13,7 +22,7 @@ display: flex;
 
 .filtres{
 display: flex;
-
+align-items: baseline;
 }
 
 #ensemble-images{
@@ -139,6 +148,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    margin: 15px;
 }
 
 .fa-money-bill-wave{
@@ -148,6 +158,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    margin: 15px;
 }
 .fa-child{
     color: blue;
@@ -156,6 +167,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    margin: 15px;
 }
 .fa-heart{
     color: blue;
@@ -164,6 +176,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    margin: 15px;
 }
 .fa-dog{
     color: blue;
@@ -172,9 +185,15 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    flex-direction: column;
+    
 }
-
+.bulle{
+    margin-right: 10px;
+  margin-top: 10px; 
+ background-color: lawngreen;
+ width: 25px;
+ height:22px ;
+}
 .logo{
     
     
@@ -189,3 +208,6 @@ footer{
     align-items: center;
 }
 
+.informations{
+    margin-bottom: 10px;
+}
