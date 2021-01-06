@@ -211,3 +211,32 @@ footer{
 .informations{
     margin-bottom: 10px;
 }
+.les-plus-populaires{
+    display: flex;
+    align-items: baseline;
+}
+.onglet{
+    margin-left: 50px;
+}
+.notes-bleu{
+    color: #0065FC;
+}
+.notes-grises{
+    color: #6e6c6c;
+    margin-left: 5px;
+}
+.note{
+    display: flex;
+    align-items: baseline;
+    margin-left: 15px;
+    
+}
+.titre-principale{
+    line-height:1px;
+    margin-left: 15px;
+}
+.sous-titre{
+    margin-left: 15px;
+    
+}
+    
