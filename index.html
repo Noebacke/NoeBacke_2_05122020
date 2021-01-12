@@ -10,9 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
-<div class="page-globale">
 
-    <body>
+
+<body>
+    <div class="page-globale">
         <header>
             <div id="Bloc1">
                 <!--Partie 1 menu principal-->
@@ -46,8 +47,10 @@
                 <!-- Partie 2/4 -->
                 <div class="barre-de-recherche">
 
-                    <div class="bulle"><i class="fas fa-map-marker-alt"></i> </div>
-                    <div class="insertion"><input type="text"></div>
+                    <div class="bulle"><i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="insertion"><input type="text">
+                    </div>
                     <div class="bouton-recherche">
                         <button id="submit-search">Rechercher</button>
                     </div>
@@ -55,9 +58,10 @@
                 </div>
                 <!-- Partie 3/4 Filtres -->
 
-                <div class="filtres">
-                    <h4><strong>Filtres</strong></h4>
-
+                <div class="les-filtres">
+                    <div class="filtres">
+                        <h4><strong>Filtres</strong></h4>
+                    </div>
                     <div class="economique">
                         <div class="icone-fond">
                             <div class="icone">
@@ -103,7 +107,9 @@
 
                 <!-- Partie 4/4 -->
                 <div class="informations">
-                    <div class="logo-info"></div>
+                    <div class="logo-info">
+                        <i class="fas fa-info"></i>
+                    </div>
                     <div class="texte">Plus de 500 logements sont disponibles dans cette ville</div>
                 </div>
             </div>
@@ -120,7 +126,7 @@
 
                 <!-- Partie 1/4 -->
                 <div class="titre">
-                    <h1>Hébergements à Marseille</h1>
+                    <h2>Hébergements à Marseille</h2>
                 </div>
 
                 <!-- Partie 2/4 -->
@@ -129,27 +135,21 @@
                     <div class="rang1-3-photos">
 
                         <div class="image-1">
-                            <div class="image">
-                                <img src="photos/lit-double.jpg" alt="Notre-Dame-de-la-Garde" />
+                            <div class="cont-image">
+                                <img class="image" src="photos/lit-double.jpg" alt="Notre-Dame-de-la-Garde" />
                             </div>
                             <div class="titre-principale">
-                                <h2>Auberge la Cannebière</h2>
+                                <h3>Auberge la Cannebière</h3>
                             </div>
                             <div class="sous-titre">
                                 Nuit à partir de <em>25€</em>
                             </div>
                             <div class="note4">
-                                <div class="notes-bleu">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <div class="notes-grises">
-                                    <i class="fas fa-star"></i>
-                                </div>
-                        
-
+                                <i class="fas fa-star notes-bleu"></i>
+                                <i class="fas fa-star notes-bleu"></i>
+                                <i class="fas fa-star notes-bleu"></i>
+                                <i class="fas fa-star notes-bleu"></i>
+                                <i class="fas fa-star notes-grise"></i>
                             </div>
                         </div>
 
@@ -160,17 +160,17 @@
                                 </Figure>
                             </div>
                             <div class="titre-principale">
-                                <h2>Hôtel du port</h2>
+                                <h3>Hôtel du port</h3>
                             </div>
                             <div class="sous-titre">
                                 Nuit à partir de <em>52€</em>
                             </div>
                             <div class="note5">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star notes-bleu"></i>
+                                <i class="fas fa-star notes-bleu"></i>
+                                <i class="fas fa-star notes-bleu"></i>
+                                <i class="fas fa-star notes-bleu"></i>
+                                <i class="fas fa-star notes-grise"></i>
                             </div>
                         </div>
 
@@ -399,49 +399,51 @@
 
             <!-- Fin de la partie 1 -->
         </section>
+    </div>
+    <footer>
 
-        <footer>
+        <!-- Partie 6 -->
+        <div class="Bloc6">
+            <!-- Partie 1/3 -->
 
-            <!-- Partie 6 -->
-            <div class="Bloc6">
-                <!-- Partie 1/3 -->
-
-                <div class="a-propos">
-                    <div class="text-ecriture-mise-en-avant">
-                        <h1>A propos</h1>
-                    </div>
-                    <div class="text-ecriture">Fonctionnement du site</div>
-                    <div class="text-ecriture">Conditions générales de vente</div>
-                    <div class="text-ecriture">Données et confidentialité</div>
-
+            <div class="a-propos">
+                <div class="text-ecriture-mise-en-avant">
+                    <h1>A propos</h1>
                 </div>
+                <div class="text-ecriture">Fonctionnement du site</div>
+                <div class="text-ecriture">Conditions générales de vente</div>
+                <div class="text-ecriture">Données et confidentialité</div>
 
-                <!-- Partie 2/3 -->
-
-                <div class="nos-herbergements">
-                    <div class="text-ecriture-mise-en-avant">
-                        <h1>Nos hébergements</h1>
-                    </div>
-                    <div class="text-ecriture">Charte qualité</div>
-                    <div class="text-ecriture">Soumettre votre hôtel</div>
-
-                </div>
-
-                <!-- Partie 3/3 -->
-
-                <div class="assistance">
-                    <div class="text-ecriture-mise-en-avant">
-                        <h1>Assistance</h1>
-                    </div>
-                    <div class="text-ecriture">Centre d'aide</div>
-                    <div class="text-ecriture">Nous contacter</div>
-
-                </div>
             </div>
-        </footer>
-        <!-- Fin de la partie 6 -->
-        <script src="https://kit.fontawesome.com/5048d6932d.js" crossorigin="anonymous"></script>
-    </body>
-</div>
+
+            <!-- Partie 2/3 -->
+
+            <div class="nos-herbergements">
+                <div class="text-ecriture-mise-en-avant">
+                    <h1>Nos hébergements</h1>
+                </div>
+                <div class="text-ecriture">Charte qualité</div>
+                <div class="text-ecriture">Soumettre votre hôtel</div>
+
+            </div>
+
+            <!-- Partie 3/3 -->
+
+            <div class="assistance">
+                <div class="text-ecriture-mise-en-avant">
+                    <h1>Assistance</h1>
+                </div>
+                <div class="text-ecriture">Centre d'aide</div>
+                <div class="text-ecriture">Nous contacter</div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Fin de la partie 6 -->
+    <script src="https://kit.fontawesome.com/5048d6932d.js" crossorigin="anonymous"></script>
+</body>
+
 
 </html>

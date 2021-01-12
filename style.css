@@ -1,9 +1,15 @@
+.page-globale{
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+}
+
+/* Partie 1 menu logo */
+
 #menu{
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
     margin-top: 10px;
-    padding-left:80%;
+    padding-left:72%;
     
 } 
 .hebergements{
@@ -14,40 +20,128 @@
 }    
 .inscription{
     margin: 15px;
+    color: #0065FC;
+    font-weight:bold;
 }
 #Bloc1{
 display: flex;
 
 }
 
-.filtres{
+
+/* Partie 2 Barre de recherche, filtres, icone"i" */
+
+.bulle{
+    margin-right: 10px;
+    margin-top: 10px; 
+    background-color: lawngreen;
+    width: 50px;
+    height:40px ;
+ }
+
+.insertion{
+    font-size: 16px;
+}
+
+.barre-de-recherche{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-radius: 60%;
+    
+}
+
+#submit-search{
+    font-size: 16px;
+    background-color: #0065FC; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+}
+
+.les-filtres{
 display: flex;
 align-items: baseline;
+}
+
+.icone-fond{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.economique{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 15px;
+}
+
+.fa-money-bill-wave{
+    color: blue;
+}
+.familial{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 15px;
+}
+.fa-child{
+    color: blue;
+}
+.romantique{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 15px;
+}
+.fa-heart{
+    color: blue;
+}
+.animaux-autorises{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 15px;
+}
+.fa-dog{
+    color: blue;
+}
+
+.informations{
+    display: flex;
+    
+}
+.logo-info{
+    margin: 10px;
+    color: #0065FC;
+    
+}
+.texte{
+    margin: 10px;
+}
+
+
+/* Partie 3 herbergements à Marseille ,images, Afficher plus */
+
+.section-hebergement{
+    margin-right: 50px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    max-height: 650px;
 }
 
 #ensemble-images{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-}
-
-#Bloc4{
-display: flex;
-align-items: flex-end;
-justify-content: center;
-flex-direction: column
-}
-
-.Bloc6{
-display: flex;
-align-items: baseline;
-justify-content: space-around;
-max-width: 1000p;
-width: 100%;
-margin: 30px 0px 30px 0px;
-background-color: #F2F2F2;
-height: 180px;
-
 }
 
 #Bloc5{
@@ -60,30 +154,35 @@ flex-wrap: wrap;
     display: flex;
 }
 
-.section-hebergement{
-    margin-right: 50px;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    max-height: 650px;
+.titre-principale{
+    
+    margin-left: 15px;
 }
 
-.section-populaire{
-    background-color: indigo;
+.notes-bleu{
+    color: #0065FC;
 }
 
-footer{
+.notes-grises{
+    color: #6e6c6c;
+    margin-left: 5px;
+}
+
+.note4{
     display: flex;
-    justify-content: center;
+    margin-left: 15px;
 }
 
-.page-globale{
-    justify-content: center;
-    margin: 0px 200px 0px 200px;
+.image{
+    width: 100%;
 }
 
-.rang1-3-photos, .rang2-3-photos{
-    display: flex;
-    flex-direction: row;
+.cont-image{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .image-1{
@@ -140,76 +239,23 @@ footer{
     padding : 5px 5px 5px 0;
     margin: 25px;
 }
-.image{
-    height: 50%;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 10px;
-    text-align: center;
-}
 
-.economique{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 15px;
-}
+/* Partie 4 Les plus populaires, icone, images, */
 
-.fa-money-bill-wave{
-    color: blue;
-}
-.familial{
+#Bloc4{
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 15px;
-}
-.fa-child{
-    color: blue;
-}
-.romantique{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 15px;
-}
-.fa-heart{
-    color: blue;
-}
-.animaux-autorises{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 15px;
-}
-.fa-dog{
-    color: blue;
-}
-.barre-de-recherche{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    
-}
-.bulle{
-    margin-right: 10px;
-  margin-top: 10px; 
- background-color: lawngreen;
- width: 25px;
- height:22px ;
-}
-.logo{
-    
-    
-}
-.icone-fond{
-    width: 25px;
-    height: 25px;
-    border-radius: 20px;
-    background: lightskyblue;
-    display: flex;
+    align-items: flex-end;
     justify-content: center;
-    align-items: center;
+    flex-direction: column
+    }
+
+.section-populaire{
+    background-color: indigo;
+}
+
+.rang1-3-photos, .rang2-3-photos{
+    display: flex;
+    flex-direction: row;
 }
 
 .informations{
@@ -222,28 +268,22 @@ footer{
 .onglet{
     margin-left: 50px;
 }
-.notes-bleu{
-    color: #0065FC;
-}
-.notes-grises{
-    color: #6e6c6c;
-    margin-left: 5px;
-}
-.note4{
+
+
+
+.Bloc6{
     display: flex;
-    margin-left: 15px;
+    align-items: baseline;
+    justify-content: space-around;
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px 0px 30px 0px;
+    background-color: #F2F2F2;
+    height: 180px;
 }
-.titre-principale{
-    line-height:1px;
-    margin-left: 15px;
+footer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
 }
-.sous-titre{
-    
-    
-}
-.note5{
-    display: flex;
-    margin-left: 15px;
-    color: #0065FC;
-}
-    
+       
