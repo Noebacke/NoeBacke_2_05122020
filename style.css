@@ -65,12 +65,17 @@ display: flex;
 .les-filtres{
 display: flex;
 align-items: baseline;
+
+}
+
+.nom-filtre{
+margin: 15px;
 }
 
 .icone-fond{
-    width: 25px;
-    height: 25px;
-    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
     background: #DEEBFF;
     display: flex;
     justify-content: center;
@@ -82,10 +87,18 @@ align-items: baseline;
     flex-direction: row;
     align-items: baseline;
     margin: 15px;
+    border-color: #9b2b2b;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 35px;
+    
 }
 
 .fa-money-bill-wave{
     color: blue;
+    display: flex;
+    justify-content: center;
+
 }
 .familial{
     display: flex;
@@ -110,6 +123,7 @@ align-items: baseline;
     flex-direction: row;
     align-items: baseline;
     margin: 15px;
+    
 }
 .fa-dog{
     color: blue;
