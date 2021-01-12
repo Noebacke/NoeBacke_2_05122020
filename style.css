@@ -10,19 +10,36 @@
     align-items: flex-end;
     margin-top: 10px;
     padding-left:72%;
-    
 } 
+/* Partie hébergements */
 .hebergements{
     margin: 15px;
 }
+/* Partie activité contenant l'ancre */
 .activites{
     margin: 15px;
+    
 }    
+/* Pour enlever soulignement ainsi que changer la couleur du lien */
+body a 
+{
+text-decoration:none;
+color:black
+}
+/* Pour que le texte s'affiche en bleu lors du survol */
+a:hover {
+    color:#0065FC;
+    text-decoration:none;
+    }
+/* Partie inscription */
 .inscription{
     margin: 15px;
     color: #0065FC;
     font-weight:bold;
 }
+
+
+/* Enseble de la partie 1 Logo plus les 3 parties du menu */
 #Bloc1{
 display: flex;
 
@@ -69,7 +86,7 @@ align-items: baseline;
 }
 
 .nom-filtre{
-margin: 15px;
+margin-left: 10px;
 }
 
 .icone-fond{
@@ -91,7 +108,6 @@ margin: 15px;
     border-width: 2px;
     border-style: solid;
     border-radius: 35px;
-    
 }
 
 .fa-money-bill-wave{
