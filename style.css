@@ -48,8 +48,8 @@ h3{
 
 /* Pour crée la bordure */
 .bordure{
-border-top: 2px solid #0065FC;
-padding-top: 20px;
+   border-top: 2px solid #0065FC;
+   padding-top: 20px;
 }
 
 /* Partie activité contenant l'ancre */
@@ -62,8 +62,8 @@ padding-top: 20px;
 /* Pour enlever soulignement ainsi que changer la couleur du lien */
 a 
 {
-text-decoration:none;
-color:black
+   text-decoration:none;
+   color:black
 }
 
 /* Pour que le texte s'affiche en bleu lors du survol */
@@ -80,27 +80,27 @@ a:hover {
 
 /* Enseble de la partie 1 Logo plus le menu */
 #Bloc1{
-display: flex;
+   display: flex;
 }
 
 /* Partie 2 Barre de recherche, filtres, icone"i" */
 /* fond de couleur pour l'icone GPS */
 .bulle{
-    margin-right: ;
-    background-color: lawngreen;
+    margin-right:-3px;
+    background-color: #F2F2F2;
     display: inline-block;
     padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
  }
 
 /* barre d'insertion */
-.insertion{
-padding: 13px; 
-margin-left: -4px;   
-}
-
-/* Bouton de recherche */
-.bouton-recherche{
-
+.insertion{ 
+    margin-left: -3px;   
+    border: 1px solid #F2F2F2;
+    font-size: 16px;
+    font-weight:bold;
+    padding: 15px 2px 14px 20px;
 }
 
 /* Enseble de la barre de recherche, licone GPS ainsi que la zone d'insertion */
@@ -111,13 +111,13 @@ margin-left: -4px;
     
 }
 
-/* barre de recherche */
+/* bouton de recherche */
 #submit-search{
     font-size: 16px;
     background-color: #0065FC; 
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
-    padding: 15px 30px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -137,13 +137,13 @@ margin-left: -4px;
 
 /* Classe qui concerne les différents nom des filtres (économique,familial...) */
 .nom-filtre{
-margin-left: 1;
-border-color: #9b2b2b;
-border-width: 2px;
-border-style: solid;
-border-radius: 35px;
-padding-right: 20px;
-padding-left: 40px;
+    margin-left: 1;
+    border-color: #9b2b2b;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 35px;
+    padding-right: 20px;
+    padding-left: 40px;
 
 }
 
@@ -245,15 +245,15 @@ padding-left: 40px;
 }
 
 #ensemble-images{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
 #Bloc5{
-    display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
 .boite-hebergement{
@@ -388,8 +388,8 @@ flex-wrap: wrap;
     height: 180px;
 }
 footer{
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content: center;
         width: 100%;
 }
        
