@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reservia</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    
+
 </head>
 
 
@@ -25,18 +27,14 @@
 
                 <!-- Partie 2/2 -->
                 <div id="menu">
-                    <div class="hebergements">Hébergements
-
+                    <div class="bordure">
+                        <div class="hebergements"><a href="#ancre1">Hébergements</a>
+                        </div>
                     </div>
-                    <div class="activites"> <a href="#ancre">Activités</a>
-
+                    <div class="activites"> <a href="#ancre2">Activités</a>
                     </div>
                     <div class="inscription">S'inscrire
-
                     </div>
-
-                    
-
                 </div>
             </div>
             <!-- Fin partie 1 -->
@@ -48,28 +46,26 @@
                 <!-- Partie 1/4 -->
                 <div class="titre-part-2">
                     <div class="titre">
-                        <h3><strong>Votre hébergement pour des vaccances de rêve</strong></h3>
+                        <h2>Trouvez Votre hébergement pour des vaccances de rêve</h2>
                     </div>
                     <div class="sous-titre">En plein centre ville ou en pleine nature.</div>
 
                 </div>
                 <!-- Partie 2/4 -->
                 <div class="barre-de-recherche">
-
-                    <div class="bulle"><i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="insertion"><input type="text">
-                    </div>
-                    <div class="bouton-recherche">
-                        <button id="submit-search">Rechercher</button>
-                    </div>
-
+                    <form method="post" action="#">
+                        <div class="bulle">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <input type="search" name="recherche--" placeholder="Marseille,France" class="insertion" />
+                        <button id="submit-search" type="submit">Rechercher</button>
+                    </form>
                 </div>
                 <!-- Partie 3/4 Filtres -->
 
                 <div class="les-filtres">
                     <div class="filtres">
-                        <h4><strong>Filtres</strong></h4>
+                        <p>Filtres</p>
                     </div>
                     <div class="economique">
                         <div class="icone-fond">
@@ -79,7 +75,7 @@
                         </div>
 
                         <div class="nom-filtre">
-                            <h4><strong>Économique</strong></h4>
+                            <p>Économique</p>
                         </div>
                     </div>
                     <div class="familial">
@@ -89,7 +85,7 @@
                             </div>
                         </div>
                         <div class="nom-filtre">
-                            <h4><strong>Familial</strong></h4>
+                            <p>Familial</p>
                         </div>
                     </div>
                     <div class="romantique">
@@ -99,7 +95,7 @@
                             </div>
                         </div>
                         <div class="nom-filtre">
-                            <h4><strong>Romantique</strong></h4>
+                            <p>Romantique</p>
                         </div>
                     </div>
                     <div class="animaux-autorises">
@@ -109,7 +105,7 @@
                             </div>
                         </div>
                         <div class="nom-filtre">
-                            <h4><strong>Animaux autorisés</strong></h4>
+                            <p>Animaux autorisés</p>
                         </div>
                     </div>
                 </div>
@@ -135,7 +131,7 @@
 
                 <!-- Partie 1/4 -->
                 <div class="titre">
-                    <h2>Hébergements à Marseille</h2>
+                    <h2 id="ancre1">Hébergements à Marseille</h2>
                 </div>
 
                 <!-- Partie 2/4 -->
@@ -339,7 +335,7 @@
             <div class="Bloc5">
                 <!-- Partie 5 partie 1/2 -->
                 <div class="titre-activite-marseille">
-                    <h1 id="ancre">Activités à Marseille</h1>
+                    <h1 id="ancre2">Activités à Marseille</h1>
                 </div>
 
                 <!-- Partie 2/2 -->

@@ -1,94 +1,153 @@
+
+/* Les marges définies pour la page exepté le footer */
 .page-globale{
     justify-content: center;
-    margin: 0px 200px 0px 200px;
+    margin: 0px 300px 0px 200px;
 }
 
-/* Partie 1 menu logo */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* Ce qui concerne le texte normal */
+p{
+    font-size: 16px;
+    
+}
+/* Les principaux titres */
+h2{
+    font-size: 20px;
+    font-weight:bold;
+}
 
+/* Titre des différents logements */
+h3{
+    font-size: 16px;
+    font-weight:bold;
+}
+
+/* Partie 1 logo */
+.logo{
+    margin-top: 50px;
+}
+
+/* Partie 2 le menu */
 #menu{
     display: flex;
     align-items: flex-end;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-left:72%;
 } 
+
 /* Partie hébergements */
 .hebergements{
-    margin: 15px;
+    margin: 20px;
+    color: #0065FC;
+    text-decoration:none;
+    color:#0065FC
 }
+
+/* Pour crée la bordure */
+.bordure{
+border-top: 2px solid #0065FC;
+padding-top: 20px;
+}
+
 /* Partie activité contenant l'ancre */
 .activites{
-    margin: 15px;
-    
+    margin: 20px;
+    text-decoration:none;
+    color:black
 }    
+
 /* Pour enlever soulignement ainsi que changer la couleur du lien */
-body a 
+a 
 {
 text-decoration:none;
 color:black
 }
+
 /* Pour que le texte s'affiche en bleu lors du survol */
 a:hover {
     color:#0065FC;
-    text-decoration:none;
     }
+
 /* Partie inscription */
 .inscription{
-    margin: 15px;
+    margin: 20px;
     color: #0065FC;
     font-weight:bold;
 }
 
-
-/* Enseble de la partie 1 Logo plus les 3 parties du menu */
+/* Enseble de la partie 1 Logo plus le menu */
 #Bloc1{
 display: flex;
-
 }
-
 
 /* Partie 2 Barre de recherche, filtres, icone"i" */
-
+/* fond de couleur pour l'icone GPS */
 .bulle{
-    margin-right: 10px;
-    margin-top: 10px; 
+    margin-right: ;
     background-color: lawngreen;
-    width: 50px;
-    height:40px ;
+    display: inline-block;
+    padding: 15px;
  }
 
+/* barre d'insertion */
 .insertion{
-    font-size: 16px;
+padding: 13px; 
+margin-left: -4px;   
 }
 
+/* Bouton de recherche */
+.bouton-recherche{
+
+}
+
+/* Enseble de la barre de recherche, licone GPS ainsi que la zone d'insertion */
 .barre-de-recherche{
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    border-radius: 60%;
     
 }
 
+/* barre de recherche */
 #submit-search{
     font-size: 16px;
     background-color: #0065FC; 
-    border: none;
+    border-radius: 5px;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
-    display: inline-block
+    display: inline-block;
+    margin-top:10px;
+    border: none;
+    margin-left: -4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
+/* classe qui concerne l'ensemble des Filtres */
 .les-filtres{
-display: flex;
-align-items: baseline;
-
+    display: flex;
+    align-items: baseline;
+    font-weight:bold;
 }
 
+/* Classe qui concerne les différents nom des filtres (économique,familial...) */
 .nom-filtre{
-margin-left: 10px;
+margin-left: 1;
+border-color: #9b2b2b;
+border-width: 2px;
+border-style: solid;
+border-radius: 35px;
+padding-right: 20px;
+padding-left: 40px;
+
 }
 
+/* Le fond des différents icones  */
 .icone-fond{
     width: 30px;
     height: 30px;
@@ -99,65 +158,82 @@ margin-left: 10px;
     align-items: center;
 }
 
+/* ensemble du filtre économique */
 .economique{
     display: flex;
     flex-direction: row;
     align-items: baseline;
     margin: 15px;
-    border-color: #9b2b2b;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 35px;
+   
+    
 }
 
+/* icone billet */
 .fa-money-bill-wave{
     color: blue;
     display: flex;
     justify-content: center;
 
 }
+
+/* ensemble du filtre familial */
 .familial{
     display: flex;
     flex-direction: row;
     align-items: baseline;
     margin: 15px;
+    
 }
+
+/* icone personnage */
 .fa-child{
     color: blue;
 }
+
+/* ensemble du filtre romantique */
 .romantique{
     display: flex;
     flex-direction: row;
     align-items: baseline;
     margin: 15px;
+    
 }
+
+/* icone coeur */
 .fa-heart{
     color: blue;
 }
+
+/* ensemble du filtres annimaux autorisés */
 .animaux-autorises{
     display: flex;
     flex-direction: row;
     align-items: baseline;
     margin: 15px;
-    
 }
+
+/* icone chien */
 .fa-dog{
     color: blue;
 }
 
+/* Ensemble de la partie information */
 .informations{
     display: flex;
     
 }
+
+/* Le logo i */
 .logo-info{
     margin: 10px;
     color: #0065FC;
     
 }
+
+/* La ligne de texte qui suit le logo i */
 .texte{
     margin: 10px;
 }
-
 
 /* Partie 3 herbergements à Marseille ,images, Afficher plus */
 
