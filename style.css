@@ -17,12 +17,14 @@ p{
 h2{
     font-size: 18px;
     font-weight:bold;
+    margin: 0;
 }
 
 /* Titre des différents logements */
 h3{
     font-size: 16px;
     font-weight:bold;
+    margin: 5px;
 }
 
 /* Partie 1 logo */
@@ -233,9 +235,7 @@ margin-right: 10px;
     flex-direction: row;
     align-items: baseline;
     margin: 0px 10px 0px 10px;
-    border-color: #F2F2F2;
-    border-width: 2px;
-    border-style: solid;
+    border: #F2F2F2 solid 2px; 
     border-radius: 35px;
     padding-right: 10px;
     padding-left: 10px;
@@ -277,6 +277,15 @@ margin-right: 10px;
 
 /* Partie 3 herbergements à Marseille ,images, Afficher plus */
 
+
+.titre2{
+   margin: 15px 0px 15px 20px;
+   
+}
+
+#ancre1{
+    
+}
 .section-hebergement{
     margin-right: 50px;
     background-color: #F2F2F2;
@@ -302,7 +311,7 @@ margin-right: 10px;
 
 .titre-principale{
     
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .notes-bleu{
@@ -316,11 +325,15 @@ margin-right: 10px;
 
 .note4{
     display: flex;
-    margin-left: 15px;
+    margin: 5px 0 5px 15px;
 }
 
 .image{
     width: 100%;
+}
+
+.sous-titre{
+    margin-left: 15px;
 }
 
 .cont-image{
@@ -337,7 +350,7 @@ margin-right: 10px;
     height:170px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
-    padding : 5px 5px 5px 0;
+    padding : 5px 5px 5px 5px;
     margin: 25px;
 }
 .image-2{
@@ -346,7 +359,7 @@ margin-right: 10px;
     height:170px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
-    padding : 5px 5px 5px 0;
+    padding : 5px 5px 5px 5px;
     margin: 25px;
 }
 .image-3{
@@ -355,7 +368,7 @@ margin-right: 10px;
     height:170px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
-    padding : 5px 5px 5px 0;
+    padding : 5px 5px 5px 5px;
     margin: 25px;
 }
 .image-4{
@@ -364,7 +377,7 @@ margin-right: 10px;
     height:170px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
-    padding : 5px 5px 5px 0;
+    padding : 5px 5px 5px 5px;
     margin: 25px;
 }
 .image-5{
@@ -373,7 +386,7 @@ margin-right: 10px;
     height:170px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
-    padding : 5px 5px 5px 0;
+    padding : 5px 5px 5px 5px;
     margin: 25px;
 }
 .image-6{
@@ -382,7 +395,7 @@ margin-right: 10px;
     height:170px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
-    padding : 5px 5px 5px 0;
+    padding : 5px 5px 5px 5px;
     margin: 25px;
 }
 
@@ -430,6 +443,6 @@ margin-right: 10px;
 footer{
     display: flex;
     justify-content: center;
-        width: 100%;
+    width: 100%;
 }
        
