@@ -317,7 +317,7 @@ margin-right: 10px;
     display: flex;
 }
 
-.titre-principale{
+.titre-principal{
     
     margin-left: 10px;
 }
@@ -427,12 +427,16 @@ margin-right: 10px;
     }
 
 .section-populaire{
-    background-color: indigo;
+    background-color: #F2F2F2;
+}
+
+.images-populaires{
+    margin: 10px 20px 10px 20px;
 }
 
 .rang1-3-photos, .rang2-3-photos{
     display: flex;
-    flex-direction: row;
+    flex-direction: ro;
 }
 
 .informations{
@@ -441,6 +445,7 @@ margin-right: 10px;
 .les-plus-populaires{
     display: flex;
     align-items: baseline;
+    
 }
 .onglet{
     margin-left: 50px;
