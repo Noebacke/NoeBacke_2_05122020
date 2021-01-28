@@ -490,12 +490,42 @@ margin-bottom: 0.5%;
     margin-left: 50px;
 }
 
+/* Partie 5 */
+
+.ensemble-photos{
+    display: flex;
+}
+
+.photo-1-format-1{
+    height: 328px;
+    width: 237px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px ;
+}
+.nom-du-lieu-1{
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    height: 25px;
+    margin-top: -4px;
+    padding: 10px 0px 10px 11px;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+
+}
+
+
+
+.titre-activite-marseille{
+    margin: 50px 0px 30px 0px;
+}
+
+
 /* Partie 6 le footer */
 
 .Bloc6{
     display: flex;
     width: 100%;
-    
     margin: auto;
     background-color: #F2F2F2;
     padding-top: 40px;
