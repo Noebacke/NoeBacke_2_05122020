@@ -1,0 +1,14 @@
+@media screen and (max-width: 640px){
+    .Bloc6{
+        flex-direction: column;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .ensemble-photos{
+        flex-direction: column;
+    }
+    .boite-hebergements{
+        
+    }
+/* }   column riverse pour les hebergements */

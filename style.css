@@ -14,7 +14,9 @@
 }
 
 .margin-footer{
-
+    width:100%;
+    max-width:1200px;
+    margin: auto
 }
 
 body{
@@ -397,35 +399,35 @@ margin-bottom: 0.5%;
 
 .box-1{
     background-color: rgb(255, 255, 255);
-    width: 190px;
+    width: 100%;
     height:150px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
     padding : 5px;
     margin: 15px 15px 15px 25px;
-    box-shadow: 0px 2px 2px rgba(43, 43, 43, 0.411);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.24);
 }
-
+                        /* Tout faire en une box et rajouter un padding sur la div hebergements pour la droit et la gauche */
 
 .box-2{
     background-color: rgb(255, 255, 255);
-    width: 190px;
+    width: 100%;
     height:150px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
     padding : 5px;
     margin: 15px;
-    box-shadow: 0px 2px 2px rgba(43, 43, 43, 0.411);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.24);
 }
 .box-3{
     background-color: rgb(255, 255, 255);
-    width: 190px;
+    width: 100%;
     height:150px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
     padding : 5px;
     margin: 15px 25px 15px 15px;
-    box-shadow: 0px 2px 2px rgba(43, 43, 43, 0.411);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.24);
 }
 
 .afficher-plus{
@@ -537,7 +539,7 @@ margin-bottom: 0.5%;
 
 .format-1{
     height: 330px;
-    width: 250px;
+    width: 100%;
     overflow: hidden;
     text-align: center;
     border-radius: 20px 20px 0px 0px ;
@@ -570,7 +572,7 @@ margin-bottom: 0.5%;
 
 .photo-2-format-2{
     height: 160px;
-    width: 278px;
+    width: 100%;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
@@ -587,13 +589,13 @@ margin-bottom: 0.5%;
 }
 
 .iles{
-    width: 101%;
+    width: 100%;
     margin-top: -9%;
 }
 
 .photo-3-format-3{
     height: 94px;
-    width: 278px;
+    width: 100%;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
@@ -617,7 +619,7 @@ margin-bottom: 0.5%;
 
 .format-4{
     height: 125px;
-    width: 260px;
+    width: 100%;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
 }
@@ -650,23 +652,17 @@ margin-bottom: 0.5%;
     padding-bottom: 30px;
 }
 
-.a-propos{
-    margin-left: 70px;
-    margin-right: 190px;
+.footer-column{
+    width: 33%;
     columns: 1;
 }
 
-.nos-hebergements{
-margin-right: 190px;
-   columns: 1;
-}
 
-.assistance{
-    columns: 1;
-}
+
 
 footer{
-    
+    width: 100%;
+    background-color: #F2F2F2;
 }
 .text-ecriture-mise-en-avant{
     size: 20px;
