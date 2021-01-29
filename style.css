@@ -494,35 +494,42 @@ margin-bottom: 0.5%;
 
 .ensemble-photos{
     display: flex;
+    margin-bottom: 50px;
 }
 
 .titre-activite-marseille{
     margin: 50px 0px 30px 0px;
 }
 
-.photo-1-format-1{
+.nom-du-lieu{
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    height: 25px;
+    margin-top: -4px;
+    padding:17px 10px 6px 12px;
+    display: flex;
+
+}
+
+.format-1{
     height: 330px;
     width: 250px;
     overflow: hidden;
     text-align: center;
-    border-radius: 10px 10px 0px 0px ;
-}
-.nom-du-lieu-1{
-    margin-bottom: 40px;
-    background-color: white;
-    border-radius: 0px 0px 10px 10px;
-    height: 25px;
-    margin-top: -4px;
-    padding: 10px 0px 10px 11px;
-    box-shadow: 5px 5px 5px 5px #F2F2F2;
-
+    border-radius: 20px 20px 0px 0px ;
 }
 
 .ensemble-1{
     margin-right: 35px;
     box-shadow: -2px -2px 11px 4px #F2F2F2;
-    border-radius: 10px;
+    border-radius: 20px;
 
+}
+
+.port{
+    margin-top: -8%;
+    width: 237%;
+    margin-left: -79%;
 }
 
 .activite-1{
@@ -534,14 +541,14 @@ margin-bottom: 0.5%;
    margin-bottom: 35px;
    margin-right: 35px;
    box-shadow: -2px -2px 11px 4px #F2F2F2;
-   border-radius: 10px;
+   border-radius: 20px;
 }
 
 .photo-2-format-2{
-    height: 140px;
-    width: 260px;
+    height: 160px;
+    width: 278px;
     overflow: hidden;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .fort{
@@ -549,31 +556,56 @@ margin-bottom: 0.5%;
     margin-top: -50%;
 }
 
-.nom-du-lieu-2{
-    background-color: white;
-    border-radius: 0px 0px 10px 10px;
-    height: 25px;
-    margin-top: -4px;
-    padding: 10px 0px 10px 11px;
-    
-}
-
 .ensemble-3{
     margin-right: 35px;
+    box-shadow: -2px -2px 11px 4px #F2F2F2;
+    border-radius: 20px;
 }
 
 .iles{
-    width: 104%;
-    
+    width: 101%;
+    margin-top: -9%;
 }
 
 .photo-3-format-3{
+    height: 94px;
+    width: 278px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.calanques{
+    width: 208%;
+    margin-left: -50%;
+}
+
+.activite-2{
+   display: flex;
+   flex-direction: column;
+}
+
+.ensemble-4{
+    margin-right: 35px;
+    box-shadow: -2px -2px 11px 4px #F2F2F2;
+    border-radius: 20px;
+}
+
+.format-4{
     height: 120px;
     width: 260px;
     overflow: hidden;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
+.notre-dame{
+    width: 100%;
+    margin-top: -2%;  
+}
+
+.longchamp{
+    width: 100%;
+    
+}
 
 
 /* Partie 6 le footer */
