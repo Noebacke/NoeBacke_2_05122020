@@ -1,10 +1,18 @@
 
-/* Les marges définies pour la page exepté le footer */
-.page-globale{
+.margin-header{
+
+}
+
+/* Les marges définies pour la page exepté le footer et le header */
+.margin-nav{
     justify-content: center;
     max-width: 1200px;
     width: 100%;
     margin:auto
+}
+
+.margin-footer{
+    
 }
 
 body{
@@ -181,6 +189,8 @@ margin-bottom: 0.5%;
     padding-left: 10px;
     height: 38px;
 }
+
+
 
 /* icone billet */
 .fa-money-bill-wave{
@@ -588,10 +598,11 @@ margin-bottom: 0.5%;
     margin-right: 35px;
     box-shadow: -2px -2px 11px 4px #F2F2F2;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 .format-4{
-    height: 120px;
+    height: 125px;
     width: 260px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
@@ -602,9 +613,15 @@ margin-bottom: 0.5%;
     margin-top: -2%;  
 }
 
+.ensemble-5{
+    margin-right: 35px;
+    box-shadow: -2px -2px 11px 4px #f2f2f2;
+    border-radius: 20px;
+}
+
 .longchamp{
     width: 100%;
-    
+    margin-top: -7%;
 }
 
 
