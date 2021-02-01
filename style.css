@@ -43,7 +43,7 @@ h3{
 
 /* Partie 1 logo */
 .logo{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 /* Partie 2 le menu */
@@ -309,7 +309,8 @@ margin-bottom: 0.5%;
     margin-right: 3%;
     background-color: #F2F2F2;
     border-radius: 3%;
-    
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #ensemble-images{
@@ -366,19 +367,19 @@ margin-bottom: 0.5%;
 }
 
 .image{
-    width: 100%;
-    margin-top: -10%;
+    width: 90%;
+    margin-top: -13%;
 }
 
 /* adaptation de la photo 4 car elle doit avoir une plus grande margin que les autres photos pour être cadrée */
 .image-2{
-    width:100%;
+    width:90%;
     margin-top: -27%;
 }
 /* adaptation de la 6ème photo pour la même raison que la précédente  */
 
 .image-3{
-    width: 100%;
+    width: 90%;
     margin-top: -52%;
 }
 
@@ -397,21 +398,9 @@ margin-bottom: 0.5%;
     border-bottom-right-radius: 0px;
 }
 
-.box-1{
+.box{
     background-color: rgb(255, 255, 255);
-    width: 100%;
-    height:150px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px; 
-    padding : 5px;
-    margin: 15px 15px 15px 25px;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.24);
-}
-                        /* Tout faire en une box et rajouter un padding sur la div hebergements pour la droit et la gauche */
-
-.box-2{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 25%;
     height:150px ;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
@@ -419,16 +408,7 @@ margin-bottom: 0.5%;
     margin: 15px;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.24);
 }
-.box-3{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height:150px ;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px; 
-    padding : 5px;
-    margin: 15px 25px 15px 15px;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.24);
-}
+*
 
 .afficher-plus{
     margin: 25px 25px 40px 25px;
@@ -456,7 +436,7 @@ margin-bottom: 0.5%;
     border-radius: 10px 0px 0px 10px
 }
 
-.image-7{
+.box-2{
     display: flex;
     border-radius: 10px;
     background-color: white;
@@ -471,27 +451,11 @@ margin-bottom: 0.5%;
     margin-left: -37%;
 }
 
-.image-8{
-   display: flex;
-   border-radius: 10px;
-   background-color: white;
-   width: 72%;
-   margin:25px;
-   padding: 1%;
-}
 
 .hotes{
 
 }
 
-.image-9{
-    display: flex;
-    border-radius: 10px;
-    background-color: white;
-    width: 72%;
-    margin: 25px;
-    padding: 1%;
-}
 
 .bleu-blanc{
 
