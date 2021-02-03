@@ -19,9 +19,16 @@
 
     .les-filtres{
         
-        
+        display: none;
     }
 
+    .section-hebergement {
+         margin-right: none;
+        background-color: none;
+        border-radius: none;
+        padding-right: none;
+         padding-left: none
+    }
     .format-1{
         height: 150px;
     }

@@ -43,7 +43,7 @@ h3{
 
 /* Partie 1 logo */
 .logo{
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 /* Partie 2 le menu */
@@ -429,6 +429,16 @@ margin-bottom: 0.5%;
     flex-direction: row
     }
 
+.ensemble-textes2{
+    width: 246%;
+}
+
+.sous-titre-2{
+    margin-left: 15px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
 .section-populaire{
     background-color: #F2F2F2;
     max-width: 400px;
@@ -438,7 +448,7 @@ margin-bottom: 0.5%;
 .images-populaires{
     
     overflow: hidden;
-    text-align: center;
+    
     border-radius: 10px 0px 0px 10px
 }
 
@@ -446,25 +456,35 @@ margin-bottom: 0.5%;
     display: flex;
     border-radius: 10px;
     background-color: white;
-    width: 72%;
-    margin: 25px;
+    width: 80%;
+    margin: 15px 0px 15px 35px;
     padding: 1%;
 }
 
 .soleil{
-    margin-top: -9%;
-    width: 100%;
-    margin-left: -37%;
+    margin-top: -4%;
+    width: 130%;
+    margin-left: -11%;
+    height: 112px;
+    margin-bottom: -3%;
 }
 
 
 .hotes{
-
+    margin-top: -4%;
+    width: 130%;
+    margin-left: -11%;
+    height: 112px;
+    margin-bottom: -3%;
 }
 
 
 .bleu-blanc{
-
+    margin-top: -4%;
+    width: 130%;
+    margin-left: -11%;
+    height: 112px;
+    margin-bottom: -3%;
 }
 
 .rang1-3-photos, .rang2-3-photos{
@@ -478,7 +498,7 @@ margin-bottom: 0.5%;
 .les-plus-populaires{
     display: flex;
     align-items: baseline;
-    margin: 10% 20px 20px 20px;
+    margin: 10% 0px 20px 10px;
     justify-content: space-around;
 }
 
