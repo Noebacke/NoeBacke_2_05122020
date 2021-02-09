@@ -24,7 +24,7 @@ body{
 }
 /* Ce qui concerne le texte normal */
 p{
-    font-size: 12px;
+    font-size: 14px;
     padding: 0;
 }
 /* Les principaux titres */
@@ -129,6 +129,7 @@ margin-bottom: 0.5%;
 
 /* Enseble de la barre de recherche, licone GPS ainsi que la zone d'insertion */
 .barre-de-recherche{
+  
    
     
 }
@@ -147,6 +148,22 @@ margin-bottom: 0.5%;
     margin-left: -4px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+#submit-search2{
+    display: none;
+    font-size: 14px;
+    background-color: #0065FC; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center; 
+    margin-top:10px;
+    border: none;
+    margin-left: -4px;
+   
+}
 }
 
 /* classe qui concerne l'ensemble des Filtres */
@@ -350,26 +367,15 @@ margin-bottom: 0.5%;
 
 .notes-grises{
     color: #F2F2F2;
-    margin-left: ;
+    
 }
 
-.note3{
+.note{
    display: flex;
     margin: 5px 0 5px 15px;
     font-size: 12px;
 }
 
-.note4{
-    display: flex;
-    margin: 5px 0 5px 15px;
-    font-size: 12px;
-}
-
-.note5{
-    display: flex;
-    margin: 5px 0 5px 15px;
-    font-size: 12px;
-}
 
 .image{
     width: 100%;
@@ -418,19 +424,17 @@ margin-bottom: 0.5%;
 
 .afficher-plus{
     margin: 25px 25px 40px 25px;
+    font-weight: bold;
 }
 
 /* Partie 4 Les plus populaires, icone, images, */
 
-#Bloc4{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: row
+.Bloc4{
+padding-left: 35px;
     }
 
 .ensemble-textes2{
-    width: 246%;
+    width: 270%;
 }
 
 .sous-titre-2{
@@ -457,29 +461,11 @@ margin-bottom: 0.5%;
     border-radius: 10px;
     background-color: white;
     width: 80%;
-    margin: 15px 0px 15px 35px;
+    margin-bottom: 15px;
     padding: 1%;
 }
 
-.soleil{
-    margin-top: -4%;
-    width: 130%;
-    margin-left: -11%;
-    height: 112px;
-    margin-bottom: -3%;
-}
-
-
-.hotes{
-    margin-top: -4%;
-    width: 130%;
-    margin-left: -11%;
-    height: 112px;
-    margin-bottom: -3%;
-}
-
-
-.bleu-blanc{
+.pop{
     margin-top: -4%;
     width: 130%;
     margin-left: -11%;
@@ -499,11 +485,10 @@ margin-bottom: 0.5%;
     display: flex;
     align-items: baseline;
     margin: 10% 0px 20px 10px;
-    justify-content: space-around;
 }
 
 .onglet{
-    margin-left: 50px;
+    margin-left: 30%;
 }
 
 /* Partie 5 */
@@ -512,7 +497,7 @@ margin-bottom: 0.5%;
     display: flex;
     margin-bottom: 50px;
 }
-
+e,
 .titre-activite-marseille{
     margin: 50px 0px 30px 0px;
 }
@@ -524,6 +509,7 @@ margin-bottom: 0.5%;
     margin-top: -4px;
     padding:17px 10px 6px 12px;
     display: flex;
+    font-weight: bold;
 
 }
 
@@ -539,6 +525,7 @@ margin-bottom: 0.5%;
     margin-right: 35px;
     box-shadow: -2px -2px 11px 4px #F2F2F2;
     border-radius: 20px;
+
 
 }
 

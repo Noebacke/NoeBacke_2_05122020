@@ -1,11 +1,15 @@
 @media screen and (max-width: 640px){
 
+
+    
+
     .Bloc6{
         flex-direction: column;
     }
 
     .footer-column{
         width: 100%;
+        margin: 10px;
     }
 
     .ensemble-photos{
@@ -16,23 +20,62 @@
         display: flex;
         flex-direction: column-reverse;
     }
+     
+    .bulle{
+        padding: 3.6%;
+        margin: 0px;
+    }
+    #submit-search{
+        display: none;
+    }
+    #submit-search2{
+        display: block;
+        
+    }
+    .insertion{
+        font-size: 15px;
+    }
 
     .les-filtres{
         
-        display: none;
+        display: block;
     }
 
     .section-hebergement {
-         margin-right: none;
-        background-color: none;
-        border-radius: none;
-        padding-right: none;
-         padding-left: none
+        margin: 0;
+        background-color: white;
+        border-radius: 3%;
+        padding: 0;
     }
+
+    .rang1-3-photos{
+        display: block;
+    }
+
+    .rang2-3-photos{
+        display: block;
+    }
+
+    .box{
+        max-width: 323px;
+        width: 80%;
+    }
+
+    
+    .image{
+        margin-top: -23%;
+    }
+
     .format-1{
         height: 150px;
     }
-    
+    .port {
+        margin-top: 0px;
+        width: 100%;
+        margin-left: 0px
+        
+    }
+
     .calanques{
         width: 100%;
         margin-left: 0%;
@@ -43,4 +86,17 @@
         background-color: white;
     }
     
+    .non-du-lieu{
+    
+    }
+
+    .titre-activite-marseille{
+        margin-left: 40px;
+    }
+
+    .ensemble-photos{
+        margin-left: 40px;
+        width: 80%;
+    }
+
 /* }   column riverse pour les hebergements */
