@@ -1,7 +1,25 @@
 @media screen and (max-width: 640px){
 
 
-    
+    #menu{
+        flex-wrap: wrap-reverse;
+    }
+
+    .bordure{
+           border: white;
+    }
+
+    .hebergements{
+        padding-top: 0;
+    }
+
+    .activites{
+        padding-top: 0;
+    }
+
+    .inscription{
+        padding-bottom: ;
+    }
 
     .Bloc6{
         flex-direction: column;
