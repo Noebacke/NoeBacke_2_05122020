@@ -2,11 +2,21 @@
 
 
     #menu{
-        flex-wrap: wrap-reverse;
+        padding-bottom: 20px;
     }
 
-    .bordure{
-           border: white;
+    body{
+        margin: 0;
+    }
+
+    .menu-item{
+        border-bottom: 2px solid #F2F2F2;
+        width: 50%;
+    }
+
+    .menu-item-active{
+        border-top: none;
+        border-bottom:2px solid #0065FC;
     }
 
     .hebergements{
@@ -18,20 +28,40 @@
     }
 
     .inscription{
-        padding-bottom: 
+        border-bottom: none;
+        position: absolute;
+        right: 0px;
+        top: 30px;
+    
+    }
+
+    .logo{
+        
+    }
+
+    .texte{
+        padding-right: 20px;
+}
+    }
+    .section-populaire{
+        border-radius: 0;
+    }
+    #reservia{
+        padding-left: 20px;
     }
 
     .les-categories{
         display: flex;
         flex-wrap: wrap;
+        padding-left: 20px;
     }
 
     .categorie{
         margin: 10px;
     }
-
-    .Bloc6{
-        flex-direction: column;
+    
+    #bloc1{
+        display: initial;
     }
 
     .footer-column{
@@ -41,6 +71,7 @@
 
     .ensemble-photos{
         flex-direction: column;
+        width: 100%;
     }
 
     .boite-hebergement{
@@ -49,18 +80,21 @@
     }
      
     .bulle{
-        padding: 3.6%;
+        padding: 14px;
         margin: 0px;
     }
+   
     #submit-search{
         display: none;
     }
     #submit-search2{
-        display: block;
+        display: inline;
+        margin-left: -16px;
         
     }
     .insertion{
         font-size: 15px;
+        padding-right: 45px;
     }
 
     .les-filtres{
@@ -68,15 +102,29 @@
         display: block;
     }
 
+    .filtres{
+        padding-left: 25px;
+    }
+
+    .bloc4{
+        padding: 30px 20px 20px 20px;
+    }
+
+    .bloc6{
+        flex-direction: column;
+        background-color: #F2F2F2;
+   
+    }
     .section-hebergement {
         margin: 0;
         background-color: white;
         border-radius: 3%;
-        padding: 30px 0 0 40px;
+        padding: 30px 0 0 0;
     }
 
     .rang1-3-photos{
         display: block;
+        padding: 0 20px 10px 20px;
     }
 
     .rang2-3-photos{
@@ -84,15 +132,21 @@
     }
 
     .box{
-        max-width: 323px;
-        width: 80%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .box-2{
+        width: 97%;
+    }
+
+    .onglet{
         margin: 0;
-        margin-bottom: 15px;
     }
 
     .titre2{
         margin: 0;
-
+        padding-bottom: 20px;
     }
 
     .image{
@@ -127,9 +181,17 @@
         margin-left: 40px;
     }
 
-    .ensemble-photos{
-        margin-left: 40px;
-        width: 80%;
+    .activite-1{
+        margin: 0;
+    }
+    .ensemble-1{
+        margin: 0;
     }
 
-/* }   column riverse pour les hebergements */
+    .margin-footer{
+        background-color: #F2F2F2;
+    }
+    
+    .afficher-plus{
+        padding-left: 0;
+    }

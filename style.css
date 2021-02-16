@@ -60,15 +60,28 @@ h3{
     padding-top: 35px;
 }
 
+.menu-item.incription{
+    
+    color: #0065FC;
+    font-weight:bold;
+}
+
+.menu-item{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 /* Pour crée la bordure */
-.bordure{
+.menu-item-active{
    border-top: 2px solid #0065FC;
-   
 }
 
 /* Partie activité contenant l'ancre */
 .activites{
-    padding: 17px;
+    padding: 20px;
     text-decoration:none;
     color:black
 }    
@@ -86,25 +99,33 @@ a:hover {
     }
 
 /* Partie inscription */
+
 .inscription{
-    padding: 17px;
-    color: #0065FC;
-    font-weight:bold;
+    color:#0065FC;
+    font-weight: bold;
 }
 
+
+
 /* Enseble de la partie 1 Logo plus le menu */
-#Bloc1{
+#bloc1{
    display: flex;
    justify-content: space-between;
    width: 100%;
 }
 
-/* Partie 2 Barre de recherche, filtres, icone"i" */
-
-.sous-titre1{
-
+.filtre{
+    font-size: 16px;
+    font-weight: bold;
 }
 
+.sous-titre1{
+   padding: 0 0 10px 0;
+}
+
+.titre{
+    padding: 0 0 20px 0;
+}
 
 /* fond de couleur pour l'icone GPS */
 .bulle{
@@ -217,7 +238,7 @@ a:hover {
 
 /* icone billet */
 .fa-money-bill-wave{
-    color: blue;
+    color: #0065FC;
     display: flex;
     justify-content: center;
     
@@ -225,21 +246,21 @@ a:hover {
 
 /* icone personnage */
 .fa-child{
-    color: blue;
+    color: #0065FC;
 }
 
 
 
 /* icone coeur */
 .fa-heart{
-    color: blue;
+    color: #0065FC;
 }
 
 
 
 /* icone chien */
 .fa-dog{
-    color: blue;
+    color: #0065FC;
 
 }
 
@@ -273,7 +294,7 @@ a:hover {
 
 
 .titre2{
-    padding: 40px 40px 0px 20px;
+    padding: 40px 40px 5px 20px;
    
 }
 
@@ -282,8 +303,12 @@ a:hover {
 .section-hebergement{
     margin-right: 40px;
     background-color: #F2F2F2;
-    border-radius: 5%;
+    border-radius: 3%;
     padding: 0 20px 0 20px;
+}
+
+.les-categories{
+    display: flex;
 }
 
 #ensemble-images{
@@ -307,11 +332,11 @@ a:hover {
 
 .boite-hebergement{
     display: flex;
+    padding-top: 10px;
 }
 
 .titre-principal{
-    
-   
+    padding: 5px 0 5px 0;
 }
 
 .notes-bleu{
@@ -345,7 +370,7 @@ a:hover {
 }
 
 .sous-titre{
-    
+    padding: 0 0 5px 0;
     font-size: 12px;
 }
 
@@ -366,7 +391,6 @@ a:hover {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px; 
     padding : 5px;
-    margin: 15px;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.24);
     max-width: 400px;
 }
@@ -379,7 +403,7 @@ a:hover {
 
 /* Partie 4 Les plus populaires, icone, images, */
 
-.Bloc4{
+.bloc4{
     padding: 40px 35px 30px 35px;
     }
 
@@ -430,7 +454,7 @@ a:hover {
 }
 
 .informations{
-    margin-bottom: 10px;
+    
 }
 
 .les-plus-populaires{
@@ -572,10 +596,9 @@ e,
 
 /* Partie 6 le footer */
 
-.Bloc6{
+.bloc6{
     display: flex;
     width: 100%;
-    margin: auto;
     background-color: #F2F2F2;
     padding-top: 40px;
     padding-bottom: 30px;
@@ -601,5 +624,4 @@ footer{
 .les-3-photos{
     width:auto;
     height: auto;
-    padding-top: 20px;
 }
