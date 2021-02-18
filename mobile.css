@@ -41,8 +41,8 @@
 
     .texte{
         padding-right: 20px;
-}
     }
+    
     .section-populaire{
         border-radius: 0;
     }
@@ -195,3 +195,4 @@
     .afficher-plus{
         padding-left: 0;
     }
+}    
