@@ -21,6 +21,7 @@
 
     .hebergements{
         padding-top: 0;
+        
     }
 
     .activites{
@@ -45,6 +46,7 @@
     
     .section-populaire{
         border-radius: 0;
+        width: 100%;
     }
     #reservia{
         padding-left: 20px;
@@ -119,7 +121,9 @@
         margin: 0;
         background-color: white;
         border-radius: 3%;
-        padding: 30px 0 0 0;
+        padding: 30px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .rang1-3-photos{
@@ -133,11 +137,15 @@
 
     .box{
         width: 100%;
-        margin-bottom: 20px;
+        max-width: unset;
     }
 
     .box-2{
         width: 97%;
+    }
+    
+    .box-activity{
+        margin: 20px 0;
     }
 
     .onglet{
@@ -194,5 +202,10 @@
     
     .afficher-plus{
         padding-left: 0;
+    }
+
+    .activity-column{
+        width: 310px;
+        padding-left: 32px;
     }
 }    

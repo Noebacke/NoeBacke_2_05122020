@@ -1,0 +1,59 @@
+@media screen and (max-width: 800px){
+
+    body{
+        margin: 0;
+    }
+
+    .boite-hebergement{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-populaire{
+        max-width: none;
+        width: 100%;
+    }
+
+    .section-hebergement{
+        margin: 0;
+        width: 94%;
+    }
+
+    .box{
+        
+    }
+
+    .titre2{
+        padding-bottom: 20px;
+    }
+    
+    .image{
+        margin-top: -33px;
+    }
+
+    .image-2{
+        margin-top: -58px;
+    }
+
+    .image-3{
+        margin-top: -124px;
+    }
+
+    .ensemble-photos{
+       
+
+    }
+
+    .format-1{
+        height: unset;
+    }
+
+    .activite-1 {
+        
+    }
+
+    .format-4{
+        height: 100px;
+    }
+
+}

@@ -218,9 +218,17 @@ a:hover {
     align-items: center;
     margin-left: -16px;
     margin-top: -1px;
+    -webkit-transform: scale(1.);
+	transform: scale(1.);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
     
 }
 
+.icone-fond:hover{
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
+}
 
 
 .categorie{
@@ -304,17 +312,22 @@ a:hover {
     margin-right: 40px;
     background-color: #F2F2F2;
     border-radius: 3%;
-    padding: 0 20px 0 20px;
+    padding: 0 23px;
+    width: 66%;
 }
 
 .les-categories{
     display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
 
 #ensemble-images{
    
     flex-direction: row;
     flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
 }
 
 .ensemble-textes{
@@ -375,7 +388,7 @@ a:hover {
 }
 
 .cont-image{
-    height: 60%;
+    height: 80px;
     width: 100%;
     overflow: hidden;
     border-radius: 10px;
@@ -386,13 +399,12 @@ a:hover {
 
 .box{
     background-color: rgb(255, 255, 255);
-    width: 100%;
-    height:150px ;
     -moz-border-radius: 10px;
-    -webkit-border-radius: 10px; 
-    padding : 5px;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.24);
-    max-width: 400px;
+    -webkit-border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 24%);
+    max-width: 195px;
+    margin: 17px 0;
 }
 
 
@@ -423,8 +435,9 @@ a:hover {
 
 .section-populaire{
     background-color: #F2F2F2;
-    max-width: 400px;
     border-radius: 20px;
+    width: 33%;
+
 }
 
 .images-populaires{
@@ -468,6 +481,24 @@ a:hover {
 }
 
 /* Partie 5 */
+
+
+.activity-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+
+
+
+.box-activity{
+    border-radius: 20px;
+    box-shadow:0px 0px 12px 0px rgb(0 0 0 / 24%);
+
+}
+
 
 .ensemble-photos{
     display: flex;
