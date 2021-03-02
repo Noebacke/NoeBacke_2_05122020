@@ -20,7 +20,7 @@
     }
 
     .box{
-        
+        box-sizing: border-box;
     }
 
     .titre2{

@@ -7,6 +7,7 @@
 
     body{
         margin: 0;
+        width: 100%;
     }
 
     .menu-item{
@@ -205,7 +206,7 @@
     }
 
     .activity-column{
-        width: 310px;
+        width: 285px;
         padding-left: 32px;
     }
 }    
