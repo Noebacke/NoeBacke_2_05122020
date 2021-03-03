@@ -2,6 +2,7 @@
 
     body{
         margin: 0;
+        width: 100%;
     }
 
     .boite-hebergement{
@@ -11,12 +12,15 @@
 
     .section-populaire{
         max-width: none;
-        width: 100%;
+        width: 98%;
+        border-radius: 0;
     }
 
     .section-hebergement{
         margin: 0;
         width: 94%;
+        margin-top: 20px;
+        border-radius: 0;
     }
 
     .box{
@@ -56,4 +60,6 @@
         height: 100px;
     }
 
+
+    
 }
