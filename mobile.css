@@ -162,7 +162,7 @@
     }
 
     .format-1{
-        height: 150px;
+        height: 140px;
     }
     .port {
         margin-top: 0px;
@@ -235,5 +235,14 @@
     .image-2{
         margin-top: -133px;
     }
+    .photo-2-format-2{
+        height: 140px;
+    }
 
+    .format-4{
+        height: 140px;
+    }
+    .photo-3-format-3{
+        height: 140px;
+    }
 }    
