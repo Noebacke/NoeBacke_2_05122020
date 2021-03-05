@@ -2,7 +2,9 @@
 .margin-header{
     max-width: 1200px;
     width: 100%;
-    margin:auto
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Les marges définies pour la page exepté le footer et le header */
@@ -21,6 +23,8 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    
+    
 }
 /* Ce qui concerne le texte normal */
 p{
@@ -150,6 +154,7 @@ a:hover, .menu-item-active a{
 .barre-de-recherche{
    display: flex;
    padding-top: 10px;
+   
     
 }
 
@@ -219,8 +224,8 @@ a:hover, .menu-item-active a{
     align-items: center;
     margin-left: -16px;
     margin-top: -1px;
-    -webkit-transform: scale(1.);
-	transform: scale(1.);
+    -webkit-transform: scale(1);
+	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
     
@@ -239,6 +244,7 @@ a:hover, .menu-item-active a{
     border-radius: 35px;
     height: 38px;
     padding: 0px 10px 0px 10px;
+    cursor: pointer;
 }
 
 .icone{
@@ -348,6 +354,7 @@ a:hover, .menu-item-active a{
     display: flex;
     padding-top: 10px;
 }
+
 
 .titre-principal{
     padding: 5px 0 5px 0;
@@ -467,9 +474,6 @@ a:hover, .menu-item-active a{
     display: flex;
 }
 
-.informations{
-    
-}
 
 .les-plus-populaires{
     display: flex;
@@ -649,7 +653,7 @@ footer{
     background-color: #F2F2F2;
 }
 .text-ecriture-mise-en-avant{
-    size: 20px;
+    font-size: 20px;
     font-weight:bold ;
 }
 
