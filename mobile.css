@@ -158,7 +158,7 @@
     }
 
     .image{
-        margin-top: -23%;
+        margin-top: -31%;
     }
 
     .format-1{
@@ -204,7 +204,7 @@
     .activity-column{
         width: 285px;
         padding-left: 32px;
-        width: 100%;
+        width: 85%;
         padding-bottom: 10px;
         box-sizing: unset;
     }
@@ -227,4 +227,13 @@
     .informations{
         padding-left: 15px;
     }
+
+    .image-3{
+        margin-top: -228px;
+    }
+
+    .image-2{
+        margin-top: -133px;
+    }
+
 }    
