@@ -198,7 +198,7 @@
     }
     
     .afficher-plus{
-        padding-left: 0;
+        padding-left: 7px;
     }
 
     .activity-column{
@@ -221,7 +221,8 @@
     }
 
     .titre-activite-marseille{
-       padding-left: 22px;
+       padding-left: 28px;
+       padding-top: 0;
     }
 
     .informations{

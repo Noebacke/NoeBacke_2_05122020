@@ -18,7 +18,8 @@
 .margin-footer{
     width:100%;
     max-width:1200px;
-    margin: auto
+    margin: auto;
+    box-sizing: border-box;
 }
 
 body{
